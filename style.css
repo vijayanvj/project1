@@ -190,7 +190,13 @@
 .navbar-nav .nav-link:hover {
     color: #FF0000 !important;
 }
-
+.navbar{
+    padding-top: 10px;
+    padding-bottom: 10px;
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+}
 
 @media(prefers-reduced-motion:no-preference) {
     :root {
